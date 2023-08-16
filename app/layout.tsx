@@ -10,12 +10,12 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://www.seekvisualartist.com/"),
-    title: "Seek Visual Artist",
+    metadataBase: new URL("https://omar.dev/"),
+    title: "Omar Hafez, Software Engineer",
     description:
-    "Hobby Designer and Software Engineer, currently at Neumann Kaffee Gruppe. Focused on immersive experiences, studying in Hamburg, Germany.",
+    "Software Engineer, currently at Think Big Technology. Focused on immersive experiences, located in NYC area.",
     generator: "Next.js",
-    applicationName: "Seek Visual Artist",
+    applicationName: "Omar Hafez, Software Engineer",
     keywords: [
         "Seek Visual Artist",
         "SeekVA",
@@ -46,17 +46,17 @@ export const metadata: Metadata = {
     ],
     colorScheme: "dark",
     openGraph: {
-        title: "Seek Visual Artist - Designer and Developer",
+        title: "Omar Hafez, Software Engineer",
         description:
-      "Hobby Designer and Software Engineer, currently at Neumann Kaffee Gruppe. Focused on immersive experiences, studying in Hamburg, Germany.",
-        url: "https://www.seekvisualartist.com/",
-        siteName: "www.seekvisualartist.com",
+      "Software Engineer, currently at Think Big Technology. Focused on immersive experiences, living in NYC area.",
+        url: "https://www.omar.dev/",
+        siteName: "www.omar.dev",
         images: [
             {
                 url: "./public/metadata.jpg",
                 width: 1200,
                 height: 630,
-                alt: "Seek Visual Artist - Designer and Developer",
+                alt: "Omar Hafez, Software Engineer",
             },
         ],
         locale: "en-US",
@@ -64,9 +64,9 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Seek Visual Artist - Designer and Developer",
+        title: "Omars Hafez, Software Engineer",
         description:
-      "Hobby Designer and Software Engineer, currently at Neumann Kaffee Gruppe. Focused on immersive experiences, studying in Hamburg, Germany.",
+      "Software Engineer, currently at Think Big Technology. Focused on immersive experiences, living in NYC area.",
         creator: "SeekVFX",
         creatorId: "0000000000",
         images: ["./public/metadata.jpg"],

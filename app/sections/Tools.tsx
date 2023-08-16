@@ -9,7 +9,7 @@ import {
     SiGithub,
     SiGooglechrome, SiGooglefonts,
     SiIntellijidea, SiJavascript, SiKotlin, SiLua,
-    SiNeovim, SiNextdotjs, SiReact, SiRust, SiTypescript, SiWebstorm, SiZig
+    SiNeovim, SiNextdotjs, SiNodedotjs, SiReact, SiRust, SiTypescript, SiWebstorm, SiZig
 } from "react-icons/si";
 import AnimatedTools from "../animations/AnimatedTools.tsx";
 
@@ -58,7 +58,7 @@ const Tools = () => {
                         <AnimatedBody delay={0.3} text="Backend" />
                         <div>
                             <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.3} stepSize={0.1} iconSize={50}>
-                                <SiZig size={50}/>
+                                <SiNodedotjs size={50}/>
                                 <SiRust size={50}/>
                                 <SiCplusplus size={50}/>
                                 <SiLua size={50}/>
